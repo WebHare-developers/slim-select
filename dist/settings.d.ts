@@ -27,6 +27,7 @@ export default class Settings {
     openPosition: 'auto' | 'up' | 'down';
     placeholderText: string;
     allowDeselect: boolean;
+    removeLastSelectedOnBackspace: boolean;
     hideSelected: boolean;
     multiString: boolean;
     keepOrder: boolean;
